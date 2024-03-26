@@ -11,8 +11,8 @@ const play = Play({
 
 
 export const metadata = {
-  title: 'Personal Site',
-  description: 'Julio Santana personal site',
+  title: 'Julio Santana',
+  description: 'Developer',
   
 }
 
