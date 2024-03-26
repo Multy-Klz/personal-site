@@ -3,3 +3,6 @@
   to = "/:splat"
   status = 200
   force = true
+  [build]
+  command = "npm run build && npm run export"
+  publish = "build"
