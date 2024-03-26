@@ -1,5 +1,6 @@
 /** @type {import('next').NextConfig} */
 module.exports = {
+  target: "serverless",
   output: "export",
   webpack(config) {
     config.module.rules.push({
