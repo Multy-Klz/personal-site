@@ -19,11 +19,11 @@ export default function ProjectCard({ href, source, name, description, isDesktop
         />
       </div>
       <div className={`flex flex-col ${isDesktop ? "w-1/2" : "w-4/5"} justify-between px-2 leading-normal`}>
-        <h1 className={`mb-2 ${isDesktop ? "text-2xl" : "text-xl"}  font-bold tracking-tight text-gray-900 dark:text-white`}>
+        <h1 className={`mb-2 ${isDesktop ? "text-2xl" : "text-xl"}  font-bold tracking-tight text-gray-900 `}>
           {name}
         </h1>
         {isDesktop && (
-          <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
+          <p className="mb-3 font-normal text-gray-900">
             {description}
           </p>
         )}

@@ -24,7 +24,7 @@ export default function ProjectContainer() {
   return (
     
     <>
-      <div className="w-full flex flex-col items-center text-gray-900">
+      <div className="w-full flex flex-col items-center ">
 
         <div className={`px-12 ${isDesktop ? "py-6" :  "pt-6 pb-3"}`}>
           <h1 className={`${myFont.className}`} style={{ color: gray }}>
