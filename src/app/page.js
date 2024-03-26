@@ -1,8 +1,8 @@
-import Header from '../Components/Header.jsx'
-import Apresentation from '../Components/Apresentation'
-import About from '../Components/About'
-import Projects from '../Components/ProjectsContainer.jsx'
-import Contact from '../Components/Contact'
+import Header from '../components/Header.jsx'
+import Apresentation from '../components/Apresentation.jsx'
+import About from '../components/About.jsx'
+import Projects from '../components/ProjectsContainer.jsx'
+import Contact from '../components/Contact.jsx'
 import './globals.css'
 
 

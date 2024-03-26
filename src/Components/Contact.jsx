@@ -1,6 +1,6 @@
 import React from "react";
 import { gray, blue } from "../app/colors";
-import SocialMediaInfo from "../Components/SocialMediaInfo";
+import SocialMediaInfo from "./SocialMediaInfo";
 import { MdOutlineEmail  } from "react-icons/md";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import localFont from 'next/font/local'

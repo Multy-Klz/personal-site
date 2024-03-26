@@ -1,5 +1,5 @@
 import React from "react";
-import Stack from "../Components/Stack";
+import Stack from "./Stack";
 
 import { blue } from "../app/colors";
 import stacks from "../../public/stacks.json";

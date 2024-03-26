@@ -1,7 +1,7 @@
 import React from "react";
 import { gray } from "../app/colors";
-import AboutStack from "../Components/AboutStack";
-import AboutSection from "../Components/AboutSection";
+import AboutStack from "./AboutStack";
+import AboutSection from "./AboutSection";
 
 export default function About() {
     return (
