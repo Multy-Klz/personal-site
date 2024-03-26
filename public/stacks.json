@@ -1,0 +1,57 @@
+[
+    {
+       "href" : "https://cdnlogo.com/logo/javascript_18196.html"  ,
+       "source" : "https://www.cdnlogo.com/logos/j/44/javascript.svg",
+        "name" : "JavaScript"
+    },
+    {
+        "href" : "https://cdnlogo.com/logo/next-js_21574.html"  ,
+        "source" : "https://www.cdnlogo.com/logos/n/80/next-js.svg",
+        "name" : "Next.js"
+    },
+    {
+        "href" : "https://cdnlogo.com/logo/react_22568.html"  ,
+        "source" : "https://www.cdnlogo.com/logos/r/63/react.svg",
+        "name" : "React"
+    },
+    {
+        "href" : "https://cdnlogo.com/logo/css_36679.html"  ,
+        "source" : "https://www.cdnlogo.com/logos/c/18/css.svg",
+        "name" : "CSS"
+    },
+    {
+        "href" : "https://cdnlogo.com/logo/nodejs-icon_39488.html"  ,
+        "source" : "https://www.cdnlogo.com/logos/n/94/nodejs-icon.svg",
+        "name" : "Node.js"
+    },
+    {
+        "href" : "https://cdnlogo.com/logo/tailwindcss_42966.html"  ,
+        "source" : "https://www.cdnlogo.com/logos/t/58/tailwindcss.svg",
+        "name" : "Tailwind.css"
+    },
+    {
+        "href" : "https://cdnlogo.com/logo/mongodb-icon_41043.html"  ,
+        "source" : "https://www.cdnlogo.com/logos/m/30/mongodb-icon.svg",
+        "name" : "MongoDB"
+    },
+    {
+        "href" : "https://cdnlogo.com/logo/mysql_9525.html"  ,
+        "source" : "https://www.cdnlogo.com/logos/m/10/mysql.svg",
+        "name" : "SQL"
+    },
+    {
+        "href" : "https://cdnlogo.com/logo/vue_39818.html"  ,
+        "source" : "https://www.cdnlogo.com/logos/v/69/vue.svg",
+        "name" : "Vue"
+    },
+    {
+        "href" : "https://cdnlogo.com/logo/figma_39644.html"  ,
+        "source" : "https://www.cdnlogo.com/logos/f/43/figma.svg",
+        "name" : "Figma"
+    },
+    {
+        "href" : "https://cdnlogo.com/logo/adobe-illustrator-cc-icon_134035.html"  ,
+        "source" : "https://www.cdnlogo.com/logos/a/67/adobe-illustrator-cc-icon.svg",
+        "name" : "Illustrator"
+    }
+]
