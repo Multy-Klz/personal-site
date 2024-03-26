@@ -1,5 +1,4 @@
 import React from "react";
-import imagem from "../../public/images/escritorio.jpg";
 import Image from "next/image";
 
 export default function ProjectCard({ href, source, name, description, isDesktop }) {
