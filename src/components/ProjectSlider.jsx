@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 import Slider from "react-slick";
 import ProjectCard from "./ProjectCard";
 import projects from "../../public/projects.json"
@@ -32,7 +32,9 @@ function SampleNextArrow(props) {
   );
 }
 
-function ProjectSlider() {
+function ProjectSlider({isDesktop}) {
+
+
   const settings = {
     className: "center",
     centerMode: true,
@@ -42,13 +44,23 @@ function ProjectSlider() {
     speed: 500,
     prevArrow: <SamplePrevArrow />,
     nextArrow: <SampleNextArrow />,
+    responsive: [
+      {
+        breakpoint: 768, 
+        settings: {
+          slidesToShow: 1, 
+          slidesToScroll: 1, 
+        },
+      },
+    ],
+    
   };
 
   return (
     <div className="flex flex-col text-center justify-center overflow-visible">
       <Slider {...settings}>
         {projects.map((project, index) => {
-          return <ProjectCard key={index} name={project.name} description={project.description} source={ project.source} />
+          return <ProjectCard isDesktop={isDesktop} key={index} name={project.name} description={project.description} source={ project.source} />
         }) }
       </Slider>
     </div>

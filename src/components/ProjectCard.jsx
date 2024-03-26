@@ -2,7 +2,8 @@ import React from "react";
 import imagem from "../../public/images/escritorio.jpg";
 import Image from "next/image";
 
-export default function ProjectCard({ href, source, name, description }) {
+export default function ProjectCard({ href, source, name, description, isDesktop }) {
+  
   return (
     <a
       href="#"
@@ -17,13 +18,15 @@ export default function ProjectCard({ href, source, name, description }) {
           height={500}
         />
       </div>
-      <div className="flex flex-col w-1/2 justify-between px-2 leading-normal">
-        <h5 className="mb-2 text-2xl  font-bold tracking-tight text-gray-900 dark:text-white">
+      <div className={`flex flex-col ${isDesktop ? "w-1/2" : "w-4/5"} justify-between px-2 leading-normal`}>
+        <h1 className={`mb-2 ${isDesktop ? "text-2xl" : "text-xl"}  font-bold tracking-tight text-gray-900 dark:text-white`}>
           {name}
-        </h5>
-        <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
-        {description}
-        </p>
+        </h1>
+        {isDesktop && (
+          <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
+            {description}
+          </p>
+        )}
       </div>
     </a>
   );
