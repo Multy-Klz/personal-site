@@ -5,7 +5,7 @@ import Background from  './../../public/images/bg.svg';
 
 export default function Apresentation() {
   return (
-    <div className="flex flex-row h-full   w-full justify-center items-center my-10 px-10">
+    <div className="flex flex-row h-full   w-full justify-center items-center my-10 px-10 text-gray-900">
       <div className="w-1/2 flex justify-center">
         <div className="relative top-0 hidden md:block">
           <div className=" absolute  animate-color-change bottom-1 right-1 scale-75 translate-x-24 translate-y-10">
