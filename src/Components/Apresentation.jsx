@@ -9,7 +9,7 @@ export default function Apresentation() {
       <div className="w-1/2 flex justify-center">
         <div className="relative top-0 hidden md:block">
           <div className=" absolute  animate-color-change bottom-1 right-1 scale-75 translate-x-24 translate-y-10">
-            <Image src={Background} alt="Background" width={500} height={500}  />
+           <Background/>
           </div>
 
           <svg className="mask absolute bottom-0">
