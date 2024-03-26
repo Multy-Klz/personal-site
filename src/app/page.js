@@ -3,6 +3,7 @@ import Apresentation from '../Components/Apresentation'
 import About from '../Components/About'
 import Projects from '../Components/ProjectsContainer.jsx'
 import Contact from '../Components/Contact'
+import './globals.css'
 
 
 export default function Home() {
