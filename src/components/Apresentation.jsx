@@ -39,7 +39,7 @@ export default function Apresentation() {
             />
           </div>
         </div>
-        <div className="absolute md:hidden top-0 -left-2 mt-[60px] -z-0" style={{ width: '300px', height: '300px' }}>
+        <div className="absolute md:hidden top-0 -left-2 mt-[75px] -z-0" style={{ width: '300px', height: '300px' }}>
           <Image
             layout="fill"
             objectFit="contain"
