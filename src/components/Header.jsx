@@ -7,7 +7,7 @@ import localFont from 'next/font/local'
 
 const myFont = localFont({ src:  "./../../public/fonts/Early-GameBoy.ttf" })
 
-export default function Header() {
+export default function Header({scrollToSection, refs}) {
   return (
     <>
       <header className="w-full">
@@ -19,9 +19,9 @@ export default function Header() {
             <p>Multy_Klz</p>
           </div>
           <div className="hidden md:flex flex-row justify-between">
-            <HeaderItem text="About Me" />
-            <HeaderItem text="Projects" />
-            <HeaderItem text="Contact" />
+            <HeaderItem  text="About Me" scrollToSection={ scrollToSection}  targetId={refs.aboutRef}/>
+            <HeaderItem text="Projects"  scrollToSection={ scrollToSection}  targetId={refs.projectsRef} />
+            <HeaderItem text="Contact" scrollToSection={ scrollToSection}  targetId={refs.contactRef}/>
           </div>
 
           <div className="flex md:hidden flex-row">

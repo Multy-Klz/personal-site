@@ -7,7 +7,7 @@ const myFont = localFont({ src:  "./../../public/fonts/Early-GameBoy.ttf" })
 
 export default function AboutSection() {
   return (
-    <div>
+    <div id="about-section">
       <h1 className={`${myFont.className}`} style={{ color: blue }}>
         About Me
       </h1>

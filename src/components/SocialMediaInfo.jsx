@@ -17,7 +17,7 @@ export default function SocialMediaInfo({
             <img className="max-h-12 p-1 " src={`${source}`} alt={`${name}`} />
           )}
         </div>
-        <p className="">{name} </p>
+        <p className="contact">{name} </p>
     </div>
       </a>
   );

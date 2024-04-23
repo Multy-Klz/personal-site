@@ -70,3 +70,16 @@ p{
 .center{
   padding-left: 30px;
 }
+
+.contact {
+  font-size: 14px;
+}
+
+.contact > p {
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+
+html {
+  scroll-behavior: smooth;
+}

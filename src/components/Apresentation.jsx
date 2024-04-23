@@ -1,13 +1,15 @@
 import React from "react";
 import Image from "next/image";
 import profile from "../../public/images/profile.png";
-import Background from  './../../public/images/bg.svg';
+import Background from './../../public/images/bg.svg';
+import character from './../../public/images/character-flat-design.png';
 
 export default function Apresentation() {
   return (
-    <div className="flex flex-row h-full   w-full justify-center items-center my-10 px-10 text-gray-900">
+    <div id="home-section"className="flex flex-row h-full   w-full justify-center items-center my-10 px-10 text-gray-900">
       <div className="w-1/2 flex justify-center">
         <div className="relative top-0 hidden md:block">
+          
           <div className=" absolute  animate-color-change bottom-1 right-1 scale-75 translate-x-24 translate-y-10">
            <Background/>
           </div>
@@ -37,13 +39,12 @@ export default function Apresentation() {
             />
           </div>
         </div>
-        <div className="flex w-3/4 justify-center md:hidden">
+        <div className="absolute md:hidden top-0 -left-2 mt-[60px] -z-0" style={{ width: '300px', height: '300px' }}>
           <Image
-            className=""
+            layout="fill"
+            objectFit="contain"
             id="profile-image-backup"
-            src={profile}
-            width={300}
-            height={300}
+            src={character}
             alt="profile"
           />
         </div>

@@ -6,7 +6,7 @@ import localFont from 'next/font/local'
 
 const myFont = localFont({ src: "./../../public/fonts/Early-GameBoy.ttf" })
 
-export default function ProjectContainer() {
+export default function ProjectContainer({projectsRef}) {
   const [isDesktop, setIsDesktop] = useState(false);
   
   useEffect(() => {
@@ -15,7 +15,7 @@ export default function ProjectContainer() {
     };
 
     window.addEventListener("resize", handleResize);
-    handleResize(); // call the function initially to set the state based on initial window size
+    handleResize(); 
 
     return () => {
       window.removeEventListener("resize", handleResize);
@@ -24,7 +24,7 @@ export default function ProjectContainer() {
   return (
     
     <>
-      <div className="w-full flex flex-col items-center ">
+      <div ref={ projectsRef } id="projects-section" className="w-full flex flex-col items-center ">
 
         <div className={`px-12 ${isDesktop ? "py-6" :  "pt-6 pb-3"}`}>
           <h1 className={`${myFont.className}`} style={{ color: gray }}>
